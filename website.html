@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>freevipsureodds - Expert Betting Tips</title>
+  <meta name="description" content="Expert football betting tips with 90%+ accuracy. Free and VIP daily predictions updated in real time." />
+  <meta name="keywords" content="betting tips, football predictions, free tips, vip betting, sure odds" />
+  <meta name="author" content="freevipsureodds" />
+  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #fff;
+      color: #333;
+    }
+    header {
+      background: #0a6c2e;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin-bottom: 10px;
+    }
+    .cta-button {
+      background: #1ebc5b;
+      padding: 12px 25px;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .feature-item {
+      flex: 1 1 250px;
+      background: #f8f8f8;
+      padding: 20px;
+      border-radius: 5px;
+    }
+    .feature-image {
+      width: 100%;
+      max-width: 400px;
+      margin: 20px auto;
+      border-radius: 10px;
+      display: block;
+    }
+
+    .prediction-buttons {
+      margin-bottom: 15px;
+      text-align: center;
+    }
+    .prediction-buttons button {
+      margin: 0 5px;
+      padding: 10px 15px;
+      border: none;
+      background: #0a6c2e;
+      color: white;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    .prediction-buttons button.active {
+      background: #1ebc5b;
+    }
+
+    .prediction-table {
+      display: none;
+      width: 100%;
+      border-collapse: collapse;
+      margin: auto;
+    }
+    .prediction-table.active {
+      display: table;
+    }
+    .prediction-table th,
+    .prediction-table td {
+      border: 2px solid #0a6c2e;
+      padding: 10px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .news-cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .news-card {
+      flex: 1 1 300px;
+      background: #f1f1f1;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    .news-card a {
+      color: #0a6c2e;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .social-join-buttons {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .social-join-buttons a {
+      padding: 12px 20px;
+      margin: 10px;
+      display: inline-block;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+    }
+    .whatsapp-btn {
+      background: #25D366;
+    }
+    .telegram-btn {
+      background: #229ED9;
+    }
+
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+    }
+    footer a {
+      color: #1ebc5b;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Expert Football Predictions with 90%+ Accuracy</h1>
+    <p>Real-time updates and betting insights from seasoned pros. Free and VIP tips daily.</p>
+    <a class="cta-button" href="#free-tips">Get Free Tips</a>
+  </header>
+
+  <section class="section">
+    <h2>Why Choose freevipsureodds?</h2>
+    <img src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-pfA2GL5gGb2IEB8RxpA6gDhK/user-xvqpmTqKj7Z9Gqbg1YPuKy6x/img-q2rYbo8Eh1hVbijW.png?st=2024-04-20T11%3A00%3A00Z&se=2030-12-31T23%3A59%3A59Z&sp=r&sv=2021-08-06&sr=b&sig=FuNzxw1V0vhGuWGr4b4GIr5D6WvraT6zk6ssbp7eaeY%3D" alt="Feature image" class="feature-image" />
+    <div class="features">
+      <div class="feature-item">
+        <h3>90%+ Accuracy</h3>
+        <p>Our expert analysts deliver high-success predictions using live stats and insights.</p>
+      </div>
+      <div class="feature-item">
+        <h3>Real-Time Updates</h3>
+        <p>Stay ahead with predictions and alerts updated in real time as matches evolve.</p>
+      </div>
+      <div class="feature-item">
+        <h3>Expert Match Analysis</h3>
+        <p>Detailed breakdowns for every key match so you make informed betting decisions.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="free-tips">
+    <h2>Free Tips</h2>
+    <div class="prediction-buttons" id="free-btns">
+      <button onclick="showTable('free','yesterday')">Yesterday</button>
+      <button class="active" onclick="showTable('free','today')">Today</button>
+      <button onclick="showTable('free','tomorrow')">Tomorrow</button>
+    </div>
+
+    <table class="prediction-table active" id="free-today">
+      <tr><th>Match</th><th>Tip</th></tr>
+      <tr><td>Arsenal vs Chelsea</td><td>1</td></tr>
+      <tr><td>Napoli vs Milan</td><td>O2.5</td></tr>
+      <tr><td>Man Utd vs Brighton</td><td>1X</td></tr>
+      <tr><td>Real Betis vs Sevilla</td><td>X2</td></tr>
+      <tr><td>Inter vs Lazio</td><td>1</td></tr>
+      <tr><td>Bayern vs Leipzig</td><td>O1.5</td></tr>
+    </table>
+
+    <table class="prediction-table" id="free-yesterday">
+      <tr><th>Match</th><th>Tip</th></tr>
+      <tr><td>Valencia vs Girona</td><td>X2</td></tr>
+      <tr><td>Liverpool vs Everton</td><td>1</td></tr>
+      <tr><td>Leicester vs Leeds</td><td>O2.5</td></tr>
+      <tr><td>Roma vs Sassuolo</td><td>1</td></tr>
+      <tr><td>Spurs vs Wolves</td><td>O1.5</td></tr>
+      <tr><td>Betis vs Almeria</td><td>1X</td></tr>
+    </table>
+
+    <table class="prediction-table" id="free-tomorrow">
+      <tr><th>Match</th><th>Tip</th></tr>
+      <tr><td>Barcelona vs Villarreal</td><td>1X</td></tr>
+      <tr><td>Monaco vs Nice</td><td>1</td></tr>
+      <tr><td>Feyenoord vs AZ Alkmaar</td><td>O2.5</td></tr>
+      <tr><td>Salzburg vs Rapid Wien</td><td>1</td></tr>
+      <tr><td>Braga vs Porto</td><td>X</td></tr>
+      <tr><td>Genk vs Anderlecht</td><td>GG</td></tr>
+    </table>
+  </section>
+
+  <section class="section">
+    <h2>VIP Tips</h2>
+    <div class="prediction-buttons" id="vip-btns">
+      <button onclick="showTable('vip','yesterday')">Yesterday</button>
+      <button class="active" onclick="showTable('vip','today')">Today</button>
+      <button onclick="showTable('vip','tomorrow')">Tomorrow</button>
+    </div>
+
+    <table class="prediction-table active" id="vip-today">
+      <tr><th>Match</th><th>Tip</th></tr>
+      <tr><td>Real Madrid vs PSG</td><td>GG + O2.5</td></tr>
+      <tr><td>Bayern vs Dortmund</td><td>1HT</td></tr>
+      <tr><td>Liverpool vs Man City</td><td>1X</td></tr>
+    </table>
+
+    <table class="prediction-table" id="vip-yesterday">
+      <tr><th>Match</th><th>Tip</th></tr>
+      <tr><td>Atletico vs Bilbao</td><td>O1.5</td></tr>
+      <tr><td>Spurs vs Wolves</td><td>1</td></tr>
+      <tr><td>Roma vs Sassuolo</td><td>1</td></tr>
+    </table>
+
+    <table class="prediction-table" id="vip-tomorrow">
+      <tr><th>Match</th><th>Tip</th></tr>
+      <tr><td>Juventus vs AC Milan</td><td>X</td></tr>
+      <tr><td>Rangers vs Celtic</td><td>1X</td></tr>
+      <tr><td>Benfica vs Porto</td><td>1</td></tr>
+    </table>
+
+    <div class="social-join-buttons">
+      <a href="https://wa.me/2348012345678" target="_blank" class="whatsapp-btn">Join WhatsApp Channel</a>
+      <a href="https://t.me/your_telegram_channel" target="_blank" class="telegram-btn">Join Telegram Channel</a>
+    </div>
+  </section>
+
+  <section class="section" id="news">
+    <h2>Latest Betting News</h2>
+    <div class="news-cards">
+      <div class="news-card">
+        <h3>5 Winning Tips for the Weekend</h3>
+        <p>Get expert-backed advice on this weekend’s top-value fixtures. Boost your bets with confidence.</p>
+        <a href="#">Read More</a>
+      </div>
+      <div class="news-card">
+        <h3>How to Spot Value Bets</h3>
+        <p>Learn how pros analyze odds movement and team form to pick winners consistently.</p>
+        <a href="#">Read More</a>
+      </div>
+      <div class="news-card">
+        <h3>Real Madrid vs Barca - Insider Predictions</h3>
+        <p>See what our VIP analysts are forecasting for El Clásico this Sunday.</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Contact: <a href="mailto:ikobasn@gmail.com">ikobasn@gmail.com</a></p>
+    <p>© 2025 freevipsureodds. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function showTable(section, day) {
+      const tables = document.querySelectorAll(`#${section}-today, #${section}-yesterday, #${section}-tomorrow`);
+      const buttons = document.querySelectorAll(`#${section}-btns button`);
+      tables.forEach(t => t.classList.remove('active'));
+      buttons.forEach(b => b.classList.remove('active'));
+      document.getElementById(`${section}-${day}`).classList.add('active');
+      const index = day === 'yesterday' ? 0 : day === 'today' ? 1 : 2;
+      buttons[index].classList.add('active');
+    }
+  </script>
+
+</body>
+</html>
